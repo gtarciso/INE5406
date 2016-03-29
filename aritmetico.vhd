@@ -17,9 +17,9 @@ begin
     	elsif ctrl="01" then
     		outp <= inpt0 - inpt1;
     	elsif ctrl="10" then
-    		outp <= inpt0 + '1';
+    		outp <= inpt0 + 1;
     	else
-    		outp <= inpt0 - '1';
+    		outp <= inpt0 - 1;
     	end if;
     end process;
 end;
