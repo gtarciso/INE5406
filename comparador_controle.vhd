@@ -18,5 +18,5 @@ begin
           op = '0' and signed(inpt0) > signed(inpt1) else
           inpt0 when
           op = '1' and signed(inpt0) < signed(inpt1) else
-          inpt1 when others;
+          inpt1;
 end architecture;
