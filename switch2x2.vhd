@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity switch is
-generic (width:integer:=8)
+generic (width:integer:=8);
 port(
   inpt0: in std_logic_vector(width-1 downto 0);
   inpt1: in std_logic_vector(width-1 downto 0);
